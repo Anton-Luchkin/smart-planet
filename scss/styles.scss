@@ -1,0 +1,67 @@
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.wrapper {
+   margin: 15px;
+   max-width: 1200px;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  background: white;
+  color: black;
+}
+
+.room-img {
+   max-width: 100%;
+   margin-bottom: 10px;
+ }
+
+ @media (min-width: 992px) {
+   .room-img {
+      max-width: 205px;
+      margin-bottom: 63px;   
+   }
+ }
+
+.room-description {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+   .room-description{
+      font-size: 18px;
+   }
+ }
+
+.prise{
+   margin-bottom: 15px;
+}
+
+.prise-title,
+.prise-value,
+.subTotal-title,
+.subTotal-value {
+  margin-bottom: 0;
+}
+
+.subTotal-taxes {
+  font-weight: bold;
+}
+
+.total-value {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
